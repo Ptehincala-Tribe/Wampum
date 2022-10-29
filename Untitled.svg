@@ -1,0 +1,135 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="530pt" height="547pt" viewBox="0.00 0.00 529.81 547.00">
+<g id="graph0" class="graph" transform="translate(2.49725341796875,543) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-543 525.81,-543 525.81,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterTestMetacoin">
+
+<path fill="rgb(48,64,88)" stroke="rgb(48,64,88)" d="M20,-263C20,-263 497.54,-263 497.54,-263 503.54,-263 509.54,-269 509.54,-275 509.54,-275 509.54,-382 509.54,-382 509.54,-388 503.54,-394 497.54,-394 497.54,-394 20,-394 20,-394 14,-394 8,-388 8,-382 8,-382 8,-275 8,-275 8,-269 14,-263 20,-263" style=""/>
+<text text-anchor="middle" x="258.77" y="-377.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">TestMetacoin</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterDeployedAddresses">
+
+<path fill="rgb(47,63,87)" stroke="rgb(64,67,88)" stroke-dasharray="5,2" d="M400.22,-178C400.22,-178 503.54,-178 503.54,-178 509.54,-178 515.54,-184 515.54,-190 515.54,-190 515.54,-243 515.54,-243 515.54,-249 509.54,-255 503.54,-255 503.54,-255 400.22,-255 400.22,-255 394.22,-255 388.22,-249 388.22,-243 388.22,-243 388.22,-190 388.22,-190 388.22,-184 394.22,-178 400.22,-178" style=""/>
+<text text-anchor="middle" x="451.88" y="-238.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">DeployedAddresses</text>
+</g>
+<g id="clust3" class="cluster" data-name="clusterAssert">
+
+<path fill="rgb(47,63,87)" stroke="rgb(64,67,88)" stroke-dasharray="5,2" d="M423.93,-93C423.93,-93 479.83,-93 479.83,-93 485.83,-93 491.83,-99 491.83,-105 491.83,-105 491.83,-158 491.83,-158 491.83,-164 485.83,-170 479.83,-170 479.83,-170 423.93,-170 423.93,-170 417.93,-170 411.93,-164 411.93,-158 411.93,-158 411.93,-105 411.93,-105 411.93,-99 417.93,-93 423.93,-93" style=""/>
+<text text-anchor="middle" x="451.88" y="-153.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">Assert</text>
+</g>
+<g id="clust4" class="cluster" data-name="clusterMetaCoin">
+
+<path fill="rgb(47,63,87)" stroke="rgb(64,67,88)" stroke-dasharray="5,2" d="M401.95,-8C401.95,-8 501.81,-8 501.81,-8 507.81,-8 513.81,-14 513.81,-20 513.81,-20 513.81,-73 513.81,-73 513.81,-79 507.81,-85 501.81,-85 501.81,-85 401.95,-85 401.95,-85 395.95,-85 389.95,-79 389.95,-73 389.95,-73 389.95,-20 389.95,-20 389.95,-14 395.95,-8 401.95,-8" style=""/>
+<text text-anchor="middle" x="451.88" y="-68.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">MetaCoin</text>
+</g>
+<g id="clust5" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="115.47,-402 115.47,-531 486.88,-531 486.88,-402 115.47,-402" style=""/>
+<text text-anchor="middle" x="301.18" y="-514.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- TestMetacoin.testInitialBalanceUsingDeployedContract -->
+<g id="node1" class="node" pointer-events="visible" data-name="TestMetacoin.testInitialBalanceUsingDeployedContract">
+
+<ellipse fill="rgb(66,70,92)" stroke="rgb(66,70,92)" stroke-width="3" cx="188.47" cy="-343" rx="172.45" ry="18" style=""/>
+<text text-anchor="middle" x="188.47" y="-338.8" font-family="Times,serif" font-size="14.00" style="">testInitialBalanceUsingDeployedContract</text>
+</g>
+<!-- TestMetacoin.MetaCoin -->
+<g id="node3" class="node" pointer-events="visible" data-name="TestMetacoin.MetaCoin">
+
+<ellipse fill="rgb(65,73,86)" stroke="rgb(65,73,86)" stroke-width="3" cx="451.88" cy="-343" rx="49.82" ry="18" style=""/>
+<text text-anchor="middle" x="451.88" y="-338.8" font-family="Times,serif" font-size="14.00" style="">MetaCoin</text>
+</g>
+<!-- TestMetacoin.testInitialBalanceUsingDeployedContract&#45;&gt;TestMetacoin.MetaCoin -->
+<g id="edge1" class="edge" data-name="TestMetacoin.testInitialBalanceUsingDeployedContract-&gt;TestMetacoin.MetaCoin">
+
+<path fill="none" stroke="rgb(44,75,94)" stroke-width="2" d="M361.29,-343C371.99,-343 382.29,-343 391.84,-343" style=""/>
+<polygon fill="rgb(44,75,94)" stroke="rgb(44,75,94)" stroke-width="2" points="391.91,-346.5 401.91,-343 391.91,-339.5 391.91,-346.5" style=""/>
+</g>
+<!-- DeployedAddresses.MetaCoin -->
+<g id="node4" class="node" pointer-events="visible" data-name="DeployedAddresses.MetaCoin">
+
+<ellipse fill="rgb(65,73,86)" stroke="rgb(65,73,86)" stroke-width="3" cx="451.88" cy="-204" rx="49.82" ry="18" style=""/>
+<text text-anchor="middle" x="451.88" y="-199.8" font-family="Times,serif" font-size="14.00" style="">MetaCoin</text>
+</g>
+<!-- TestMetacoin.testInitialBalanceUsingDeployedContract&#45;&gt;DeployedAddresses.MetaCoin -->
+<g id="edge2" class="edge" data-name="TestMetacoin.testInitialBalanceUsingDeployedContract-&gt;DeployedAddresses.MetaCoin">
+
+<path fill="none" stroke="rgb(66,81,102)" stroke-width="2" d="M330.33,-332.66C341.26,-328.39 351.64,-322.93 360.95,-316 383.47,-299.22 371.26,-281.39 388.22,-259 397.36,-246.93 409.5,-235.54 420.65,-226.29" style=""/>
+<polygon fill="rgb(66,81,102)" stroke="rgb(66,81,102)" stroke-width="2" points="422.94,-228.95 428.54,-219.96 418.55,-223.49 422.94,-228.95" style=""/>
+</g>
+<!-- Assert.equal -->
+<g id="node5" class="node" pointer-events="visible" data-name="Assert.equal">
+
+<ellipse fill="rgb(65,73,86)" stroke="rgb(65,73,86)" stroke-width="3" cx="451.88" cy="-119" rx="31.9" ry="18" style=""/>
+<text text-anchor="middle" x="451.88" y="-114.8" font-family="Times,serif" font-size="14.00" style="">equal</text>
+</g>
+<!-- TestMetacoin.testInitialBalanceUsingDeployedContract&#45;&gt;Assert.equal -->
+<g id="edge3" class="edge" data-name="TestMetacoin.testInitialBalanceUsingDeployedContract-&gt;Assert.equal">
+
+<path fill="none" stroke="rgb(66,81,102)" stroke-width="2" d="M335.66,-333.57C344.9,-329 353.47,-323.23 360.95,-316 407.15,-271.33 356.28,-229.77 388.22,-174 396.29,-159.92 409.31,-147.62 421.39,-138.24" style=""/>
+<polygon fill="rgb(66,81,102)" stroke="rgb(66,81,102)" stroke-width="2" points="423.57,-140.99 429.54,-132.24 419.42,-135.35 423.57,-140.99" style=""/>
+</g>
+<!-- MetaCoin.getBalance -->
+<g id="node6" class="node" pointer-events="visible" data-name="MetaCoin.getBalance">
+
+<ellipse fill="rgb(65,73,86)" stroke="rgb(65,73,86)" stroke-width="3" cx="451.88" cy="-34" rx="53.86" ry="18" style=""/>
+<text text-anchor="middle" x="451.88" y="-29.8" font-family="Times,serif" font-size="14.00" style="">getBalance</text>
+</g>
+<!-- TestMetacoin.testInitialBalanceUsingDeployedContract&#45;&gt;MetaCoin.getBalance -->
+<g id="edge4" class="edge" data-name="TestMetacoin.testInitialBalanceUsingDeployedContract-&gt;MetaCoin.getBalance">
+
+<path fill="none" stroke="rgb(66,81,102)" stroke-width="2" d="M337.03,-333.74C345.83,-329.1 353.94,-323.27 360.95,-316 396.21,-279.42 364.53,-133.95 388.22,-89 394.94,-76.24 405.92,-65.09 416.82,-56.22" style=""/>
+<polygon fill="rgb(66,81,102)" stroke="rgb(66,81,102)" stroke-width="2" points="419.27,-58.75 425.08,-49.89 415.01,-53.2 419.27,-58.75" style=""/>
+</g>
+<!-- TestMetacoin.testInitialBalanceWithNewMetaCoin -->
+<g id="node2" class="node" pointer-events="visible" data-name="TestMetacoin.testInitialBalanceWithNewMetaCoin">
+
+<ellipse fill="rgb(66,70,92)" stroke="rgb(66,70,92)" stroke-width="3" cx="188.47" cy="-289" rx="154.55" ry="18" style=""/>
+<text text-anchor="middle" x="188.47" y="-284.8" font-family="Times,serif" font-size="14.00" style="">testInitialBalanceWithNewMetaCoin</text>
+</g>
+<!-- TestMetacoin.testInitialBalanceWithNewMetaCoin&#45;&gt;Assert.equal -->
+<g id="edge5" class="edge" data-name="TestMetacoin.testInitialBalanceWithNewMetaCoin-&gt;Assert.equal">
+
+<path fill="none" stroke="rgb(66,81,102)" stroke-width="2" d="M216.96,-271.13C266.54,-238.88 370.55,-171.24 421.5,-138.11" style=""/>
+<polygon fill="rgb(66,81,102)" stroke="rgb(66,81,102)" stroke-width="2" points="423.6,-140.92 430.08,-132.53 419.78,-135.05 423.6,-140.92" style=""/>
+</g>
+<!-- TestMetacoin.testInitialBalanceWithNewMetaCoin&#45;&gt;MetaCoin.getBalance -->
+<g id="edge6" class="edge" data-name="TestMetacoin.testInitialBalanceWithNewMetaCoin-&gt;MetaCoin.getBalance">
+
+<path fill="none" stroke="rgb(66,81,102)" stroke-width="2" d="M206.62,-270.93C240.57,-235.36 319.03,-154.04 388.22,-89 399.51,-78.39 412.31,-67.04 423.39,-57.42" style=""/>
+<polygon fill="rgb(66,81,102)" stroke="rgb(66,81,102)" stroke-width="2" points="425.82,-59.94 431.1,-50.76 421.24,-54.65 425.82,-59.94" style=""/>
+</g>
+<!-- key -->
+<g id="node7" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="rgb(65,73,86)" stroke="none" stroke-width="3" points="253.47,-498 123.47,-498 123.47,-410 253.47,-410 253.47,-498" style=""/>
+<text text-anchor="start" x="173.11" y="-479.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="169.22" y="-459.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="146.68" y="-439.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="133.08" y="-419.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node8" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="rgb(65,73,86)" stroke="none" stroke-width="3" points="478.88,-498 424.88,-498 424.88,-410 478.88,-410 478.88,-498" style=""/>
+<text text-anchor="start" x="441.88" y="-479.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="441.88" y="-459.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="rgb(48,64,88)" stroke="none" points="439.88,-434 439.88,-454 464.88,-454 464.88,-434 439.88,-434" style=""/>
+<text text-anchor="start" x="441.88" y="-439.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="rgb(64,67,88)" points="441.88,-416 441.88,-432 462.88,-432 462.88,-416 441.88,-416" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge7" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="rgb(44,75,94)" stroke-width="2" d="M246.47,-484C328.48,-484 351.51,-484 428.67,-484" style=""/>
+<polygon fill="rgb(44,75,94)" stroke="rgb(44,75,94)" stroke-width="2" points="428.88,-487.5 438.88,-484 428.88,-480.5 428.88,-487.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge8" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="rgb(66,81,102)" stroke-width="2" d="M246.47,-464C328.48,-464 351.51,-464 428.67,-464" style=""/>
+<polygon fill="rgb(66,81,102)" stroke="rgb(66,81,102)" stroke-width="2" points="428.88,-467.5 438.88,-464 428.88,-460.5 428.88,-467.5" style=""/>
+</g>
+</g>
+</svg>

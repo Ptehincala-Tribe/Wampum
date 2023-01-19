@@ -1,6 +1,6 @@
 /**
  * Start and stop geth from Node.js.
- * @author Jack Peterson (jack@tinybike.net)
+
  */
 
 "use strict";

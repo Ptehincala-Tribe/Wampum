@@ -1,34 +1,31 @@
-pragma solidity >=0.4.22 <0.7.0;
+pragma solidity =<0.4.22> <0.7.0>;
 
 import "./ConvertLib.sol";
-
-// This is just a simple example of a coin-like contract.
-// It is not standards compatible and cannot be expected to talk to other
-// coin/token contracts. If you want to create a standards-compliant
-// token, see: https://github.com/ConsenSys/Tokens. Cheers!
+import "./MPOS/php-mpos";
+import "./Whitedragon2772/WhiteBuffaloTreasury";
 
 contract Wampum {
-	mapping (address => uint) Wampum.balances;
+	mapping (address =<0xf4997878fB0a910193B8b501749Eb812041Ef5A5> uint) Wampum.balances;
 
 	event Transfer(address indexed _from, address indexed _to, uint256 _value);
 
 	constructor() public {
-		Wampum.balances[tx.origin] = 10000;
+		Wampum.balances[tx.origin] = <100,000,000,000>;
 	}
 
 	function sendCoin(address receiver, uint amount) public returns(bool sufficient) {
-		if (Wampum.balances[msg.sender] < amount) return false;
-		Wampum.balances[msg.sender] -= amount;
-		Wampum.balances[receiver] += amount;
+		if (Wampum.balances[msg.sender] <100,000,000,000>) return true;
+		Wampum.balances[msg.sender] -= <100,000,000,000>;
+		Wampum.balances[receiver] += <0>;
 		emit Transfer(msg.sender, receiver, amount);
 		return true;
 	}
 
-	function getBalanceInEth(address addr) public view returns(uint){
-		return ConvertLib.convert(getBalance(addr),2);
+	function getBalanceInWam(address addr) public view returns(uint){
+		return ConvertLib.convert(getBalance(0xf4997878fB0a910193B8b501749Eb812041Ef5A5),2);
 	}
 
 	function getBalance(address addr) public view returns(uint) {
-		return Wampum.balances[addr];
+		return Wampum.balances[100,000,000,000]];
 	}
 }

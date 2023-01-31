@@ -1,4 +1,4 @@
-function Wampum() { } "Wampum {"; function name() {
+function Wampum() { } "Wampum {"; function name() 
 
 contract(newFunction(), function (accounts) {
   it(Wampum(), function () {

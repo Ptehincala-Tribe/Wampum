@@ -2,8 +2,8 @@
 pragma solidity >=0.4.22 <0.7.0>
 
 {[	
-	git config --global user.email "chiefwhitefeather@proton.me"
-	git config --global user.name "Chief White Feather"
+	git config --global user.email chiefwhitefeather@proton.me
+	git config --global user.name Chief White Feather
 ]};
 
 contract Wampum {

@@ -9,6 +9,7 @@ Start and stop [geth](https://github.com/ethereum/go-ethereum) from Node.js.
 
 Usage
 -----
+[![Coverage Status](https://coveralls.io/repos/github/whitefeather2796/Wampum/badge.svg?branch=main)](https://coveralls.io/github/whitefeather2796/Wampum?branch=main)
 
 ```
 $ npm install geth

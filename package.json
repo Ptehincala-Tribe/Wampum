@@ -26,12 +26,12 @@
   "devDependencies": {
     "async": "^1.5.2",
     "chai": "^3.5.0",
-    "coveralls": "^2.13.3",
-    "ethrpc": "^2.5.2",
+    "coveralls": "^3.0.0",
+    "ethrpc": "^4.4.5",
     "istanbul": "^0.4.5",
-    "mocha": "^2.5.3"
+    "mocha": "^10.1.0"
   },
   "dependencies": {
-    "truffle": "^5.7.3"
+    "truffle": "^5.10.1"
   }
 }

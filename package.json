@@ -34,8 +34,12 @@
     "mocha": "^10.1.0"
   },
   "dependencies": {
+
     "truffle": "^5.7.3",
     "@snyk/protect": "latest"
   },
   "snyk": true
+=======
+    "truffle": "^5.10.1"
+  }
 }

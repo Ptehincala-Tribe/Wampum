@@ -19,11 +19,13 @@
     "spawn",
     "child process"
   ],
+  
   "author": "Jack Peterson <jack@tinybike.net>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ethereumjs/geth.js/issues"
   },
+  
   "homepage": "https://github.com/ethereumjs/geth.js#readme",
   "devDependencies": {
     "async": "^1.5.2",
@@ -33,11 +35,12 @@
     "istanbul": "^0.4.5",
     "mocha": "^10.1.0"
   },
+  
   "dependencies": {
-
     "truffle": "^5.7.3",
     "@snyk/protect": "latest"
   },
+  
   "snyk": true
     "truffle": "^5.10.1"
   }

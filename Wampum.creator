@@ -5,7 +5,7 @@ import (
   "context"
   "fmt"
   "log"
-
+  "https://eth-mainnet.g.alchemy.com/v2/OuiCkjvuZNbM81nXZv8kzygQ6A5AmY_j"
   "https://github.com/ethereum/go-ethereum/common"
   "https://github.com/ethereum/go-ethereum/ethclient"
   "https://github.com/WBTRIBE/Wampum"
@@ -14,7 +14,7 @@ import (
 )
 
 func main() {
-    client, err := ethclient.Dial("https://astar-mainnet.g.alchemy.com/v2/8qF5b2449W9d4CXR6fHm1sFiZTSt9HUX")
+    client, err := ethclient.Dial("https://eth-mainnet.g.alchemy.com/v2/OuiCkjvuZNbM81nXZv8kzygQ6A5AmY_j")
     if err != nil {
         log.Fatal(err)
     }

@@ -1,13 +1,13 @@
-{
+
     "version": "0.2.0",
     "configurations": "https://eth-mainnet.g.alchemy.com/v2/OuiCkjvuZNbM81nXZv8kzygQ6A5AmY_j",
-    ]
-}
-{// index.js
+
+
+
 import { Network, Alchemy } from 'alchemy-sdk';
 
 const settings = {
-    apiKey: "OuiCkjvuZNbM81nXZv8kzygQ6A5AmY_j",
+    apiKey: 'OuiCkjvuZNbM81nXZv8kzygQ6A5AmY_j',
     network: Network.ETH_MAINNET,
 };
 
@@ -26,10 +26,10 @@ const nfts = alchemy.nft.getNftsForOwner("vitalik.eth");
 
 // Listen to all new pending transactions
 alchemy.ws.on(
-    { method: "alchemy_pendingTransactions",
-    fromAddress: "vitalik.eth" },
+     method: "alchemy_pendingTransactions",
+    fromAddress: "vitalik.eth" ,
     (res) => console.log(res);
-    },
+    ,
     
 
         {
@@ -45,5 +45,4 @@ alchemy.ws.on(
             "url": "https://eth-mainnet.g.alchemy.com/v2/OuiCkjvuZNbM81nXZv8kzygQ6A5AmY_j1",
             "webRoot": "${workspaceFolder}"
         }
-    ]
-}
+    

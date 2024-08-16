@@ -1,7 +1,7 @@
 pragma solidity =<0.4.22> <0.7.0>;
 
 import "./ConvertLib.sol";
-import "./MPOS/php-mpos";
+import "https://eth-mainnet.g.alchemy.com/v2/4LOXL_jFvZ-CkRsrtJ3KtF5ON4nbf0_m";
 import "./Whitedragon2772/WhiteBuffaloTreasury";
 
 contract Wampum {
@@ -26,6 +26,6 @@ contract Wampum {
 	}
 
 	function getBalance(address addr) public view returns(uint) {
-		return Wampum.balances[100,000,000,000]];
+		return Wampum.balances[100,000,000,000];
 	}
 }

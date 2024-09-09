@@ -1,48 +1,13 @@
-
-    "version": "0.2.0",
-    "configurations": "https://eth-mainnet.g.alchemy.com/v2/OuiCkjvuZNbM81nXZv8kzygQ6A5AmY_j",
-
-
-
-import { Network, Alchemy } from 'alchemy-sdk';
-
-const settings = {
-    apiKey: 'OuiCkjvuZNbM81nXZv8kzygQ6A5AmY_j',
-    network: Network.ETH_MAINNET,
-};
-
-const alchemy = new Alchemy(settings);
-
-// Get the latest block
-const latestBlock = alchemy.core.getBlockNumber();
-
-// Get all outbound transfers for a provided address
-alchemy.core
-    .getTokenBalances('0x994b342dd87fc825f66e51ffa3ef71ad818b6893')
-    .then(console.log);
-
-// Get all the NFTs owned by an address
-const nfts = alchemy.nft.getNftsForOwner("vitalik.eth");
-
-// Listen to all new pending transactions
-alchemy.ws.on(
-     method: "alchemy_pendingTransactions",
-    fromAddress: "vitalik.eth" ,
-    (res) => console.log(res);
-    ,
-    
-
-        {
-            "command": "npm start",
-            "name": "Run npm start",
-            "request": "launch",
-            "type": "node-terminal"
-        },
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "https://eth-mainnet.g.alchemy.com/v2/OuiCkjvuZNbM81nXZv8kzygQ6A5AmY_j1",
-            "webRoot": "${workspaceFolder}"
-        }
-    
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to Node Functions",
+      "type": "node",
+      "request": "attach",
+      "restart": true,
+      "port": 9229,
+      "preLaunchTask": "func: host start"
+    }
+  ]
+}

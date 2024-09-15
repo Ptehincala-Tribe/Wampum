@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@azure/functions": "^4.0.0",
+    "alchemy-sdk": "^3.4.1",
     "npm": "^10.8.3",
     "wscat": "^5.2.1"
   },

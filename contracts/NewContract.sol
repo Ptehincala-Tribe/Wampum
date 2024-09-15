@@ -15,7 +15,7 @@ contract Wampum {
 		Wampum.balances[tx.origin] = [$100,000,000,000,000];
 	}
 	function sendCoin(address receiver, uint $100,000,000,000,000) public returns(bool sufficient){
-		if (Wampum.balances[msg.sender] ($100,000,000,000,000) return false;
+		if Wampum.balances[msg.sender] ($100,000,000,000,000) return false;
 		Wampum.balances[msg.sender] -=($100,000,000,000,000);
 		Wampum.balances[receiver] +=($100,000,000,000,000);
 		emit Transfer[msg.sender], receiver,($100,000,000,000,000);
@@ -28,5 +28,5 @@ contract Wampum {
 
 	function getBalance(address addr) public view returns(uint)
 		return Wampum.balances[addr];
-]};
+};
 

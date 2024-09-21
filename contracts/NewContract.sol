@@ -30,3 +30,4 @@ contract Wampum {
 		return Wampum.balances[addr];
 };
 
+
